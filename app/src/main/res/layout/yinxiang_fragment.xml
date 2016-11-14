@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#2CA9E1"
+        android:orientation="horizontal"
+        android:layout_weight="8">
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+
+            <RadioButton
+                android:id="@+id/rb_tuijian"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:tag="f1"
+                android:text="推荐"
+                android:textColor="@color/color"
+                android:textSize="20sp" />
+            <View
+                android:id="@+id/yinxiang_view"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:background="#ffffff"
+                android:layout_gravity="center_vertical"/>
+
+
+            <RadioButton
+                android:id="@+id/rb_ouyu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="false"
+                android:gravity="center"
+                android:tag="f2"
+                android:text="偶遇"
+                android:textColor="@color/color"
+                android:textSize="20sp" />
+        </RadioGroup>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+
+
+</LinearLayout>

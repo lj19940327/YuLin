@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liujie.lenovo.yulin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="imageloader.ImageLoaderS"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_photo"
+        android:label="刘杰遇邻"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".UIActivity" />
+        <activity android:name=".TouBu_XiangQingActivity" />
+        <activity android:name=".WebActivity"></activity>
+    </application>
+
+</manifest>

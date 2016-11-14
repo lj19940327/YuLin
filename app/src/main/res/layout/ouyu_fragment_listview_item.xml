@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:src="@mipmap/title_care"/>
+
+        <TextView
+            android:id="@+id/ouyu_tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="你发的所发生的吧发的失败分不打算不"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/ouyu_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打死你个不服不服不服bfUIbfUI个不服不服地堆被覆盖bfUI个被覆盖不复读不不复读生不"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Big Big Word"
+            android:textSize="15sp"
+            android:textColor="#2CA9E1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

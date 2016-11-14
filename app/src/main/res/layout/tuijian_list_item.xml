@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/tuijian_list_item_img"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/start1" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tuijian_list_item_img"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tuijian_list_item_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="你好"
+                    android:textColor="#ECBF47"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/v"
+                    android:layout_width="4dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/tuijian_list_item_tv1"
+                    android:background="#000000" />
+
+
+                <TextView
+                    android:id="@+id/tuijian_list_item_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/v"
+                    android:text="以实名认证"
+                    android:textSize="10sp"
+                    android:textColor="#ffffff"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/tuijian_list_item_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#ffffff"
+                    android:text="来自线上采访"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tuijian_list_item_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="#92D1D2"
+            android:text="你好" />
+
+        <Button
+            android:id="@+id/tuijian_list_item_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ECBF47"
+            android:text="你好小常出现" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tuijian_list_item_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:text="幅度是发送到发货的广东省及数据库过段时间上单还国家大事开个会打暑假工四大皆空水电费第三方的三国杀" />
+
+</LinearLayout>
